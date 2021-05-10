@@ -1,3 +1,6 @@
 [submodule "mortal-kombat"]
 	path = mortal-kombat
 	url = https://github.com/Reniary/mortal-kombat.git
+[submodule "sos"]
+	path = sos
+	url = https://github.com/Reniary/sos.git
