@@ -10,3 +10,6 @@
 [submodule "willberries"]
 	path = willberries
 	url = https://github.com/Reniary/willberries
+[submodule "it-studio"]
+	path = it-studio
+	url = https://github.com/Reniary/it-studio.git
