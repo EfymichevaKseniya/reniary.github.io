@@ -4,3 +4,6 @@
 [submodule "sos"]
 	path = sos
 	url = https://github.com/Reniary/sos.git
+[submodule "web_design"]
+	path = web_design
+	url = https://github.com/Reniary/web_design.git
