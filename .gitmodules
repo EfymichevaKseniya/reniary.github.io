@@ -1,0 +1,3 @@
+[submodule "mortal-kombat"]
+	path = mortal-kombat
+	url = https://github.com/Reniary/mortal-kombat.git
