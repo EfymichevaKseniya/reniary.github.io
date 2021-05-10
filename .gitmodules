@@ -7,3 +7,6 @@
 [submodule "web_design"]
 	path = web_design
 	url = https://github.com/Reniary/web_design.git
+[submodule "willberries"]
+	path = willberries
+	url = https://github.com/Reniary/willberries
