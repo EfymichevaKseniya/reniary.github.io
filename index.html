@@ -1,1 +1,289 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-folio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <img class="logo__img" src="img/code.svg" alt= "logo: tag">
+                </div>
+                <nav class="nav">
+                        <div class="menu__btn">
+                            <span></span>
+                        </div>
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__link active scroll-link" href="#body">Главная</a></li>
+                            <li class="nav__item"><a class="nav__link scroll-link" href="#about">Обо мне</a></li>
+                            <li class="nav__item"><a class="nav__link scroll-link" href="#skills">Навыки</a></li>
+                            <li class="nav__item"><a class="nav__link scroll-link" href="#work">Проекты</a></li>
+                            <li class="nav__item"><a class="nav__link scroll-link" href="#contact">Контакты</a></li>
+                </nav>
+            </div>
+            <div class="header__promo">
+                <div class="header__promo-info">
+                    <h2 class="header__promo-title">Ефимычева Ксения</h2>
+                    <h4 class="header__promo-subtitle">Front-end разработчик</h4>
+                </div>
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <i class="social__icons fab fa-vk"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <i class="social__icons fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </header>
+
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section__inner">
+                <div class="section__content">
+                    <h3 class="section__title">Обо мне</h3>
+                </div>
+                <div class="about__info">
+                    <p class="about__text">Приветствую Вас на своем сайте-портфолио. Меня зовут Ксения. Живу в Ижевске. Занимаюсь версткой адаптивных и кроссбраузерных сайтов. Использую: БЭМ, GULP, SCSS, CSS3/HTML5, Чистый JavaScript, jQuery.</p>
+
+                    <div class="progress__box">
+                        <h5 class="progress__box-title">
+                            HTML5
+                            <span class="progress__num">80%</span>
+                        </h5>
+                        <div class="progress">
+                            <div class="proggress__bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="progress__box">
+                        <h5 class="progress__box-title">
+                            CSS3
+                            <span class="progress__num">70%</span>
+                        </h5>
+                        <div class="progress">
+                            <div class="proggress__bar" style="width: 77%"></div>
+                        </div>
+                    </div>
+                    <div class="progress__box">
+                        <h5 class="progress__box-title">
+                            JavaScript
+                            <span class="progress__num">40%</span>
+                        </h5>
+                        <div class="progress">
+                            <div class="proggress__bar" style="width: 40%"></div>
+                        </div>
+                    </div>
+                    <div class="progress__box">
+                        <h5 class="progress__box-title">
+                            Photoshop, Figma
+                            <span class="progress__num">57%</span>
+                        </h5>
+                        <div class="progress">
+                            <div class="proggress__bar" style="width: 57%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section> <!--/.about -->
+
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section__inner">
+                <div class="section__content">
+                    <h3 class="section__title">Навыки</h3>
+                </div>
+                <div class="skills__items">
+                    <div class="skills__item">
+                        <h5 class="skills__title">HTML5/CSS3</h5>
+                        <ul class="skills__list">
+                            <li class="skills__list-item"><span class="skills__list-text">Валидный, кроссбраузерный код</span></li>
+                            <li class="skills__list-item"><span class="skills__list-text">Семантичная верстка</span></li>
+                            <li class="skills__list-item"><span class="skills__list-text">Структутированный код</span></li>
+                            <li class="skills__list-item"><span class="skills__list-text">Методология БЭМ</span></li>
+                        </ul>
+                    </div>
+                    <div class="skills__item">
+                        <h5 class="skills__title">Javascript</h5>
+                        <ul class="skills__list">
+                            <li class="skills__list-item"><span class="skills__list-text">Нативный javascript</span></li>
+                            <li class="skills__list-item"><span class="skills__list-text">Комментируемый код</span></li>
+                        </ul>
+                    </div>
+                    <div class="skills__item">
+                        <h5 class="skills__title">Photoshop/Figma</h5>
+                        <ul class="skills__list">
+                            <li class="skills__list-item"><span class="skills__list-text">Нарезка изображений из макета</span></li>
+                            <li class="skills__list-item"><span class="skills__list-text">Оптимизация изображений для Web</span></li>
+                            <li class="skills__list-item"><span class="skills__list-text">Экспорт стилей для ускоренной верстки</span></li>
+                        </ul>
+                    </div>
+                    <div class="skills__item">
+                        <h5 class="skills__title">Gulp</h5>
+                        <ul class="skills__list">
+                            <li class="skills__list-item"><span class="skills__list-text">Быстрое разворачивание проекта</span></li>
+                            <li class="skills__list-item"><span class="skills__list-text">Автоматизация процесса верстки</span></li>
+                            <li class="skills__list-item"><span class="skills__list-text">Минификация файлов</span></li>
+                        </ul>
+                    </div>
+                    <div class="skills__item">
+                        <h5 class="skills__title">Smart-grid/Bootstrap</h5>
+                        <ul class="skills__list">
+                            <li class="skills__list-item"><span class="skills__list-text">Кроссбраузерность и адаптивность сайта</span></li>
+                            <li class="skills__list-item"><span class="skills__list-text">Высокая скорость разработки сайта</span></li>
+                        </ul>
+                    </div>
+                    <div class="skills__item">
+                        <h5 class="skills__title"> Sass</h5>
+                        <ul class="skills__list">
+                            <li class="skills__list-item"><span class="skills__list-text">Ускоренная стилизация сайта</span></li>
+                            <li class="skills__list-item"><span class="skills__list-text">Более гибкий код</span></li>
+                            <li class="skills__list-item"><span class="skills__list-text">Вложенность селекторов без ошибок</span></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section> <!--/.skills-->
+
+    <section class="section work" id="work">
+        <div class="container">
+            <div class="section__inner">
+                <div class="section__content">
+                    <h3 class="section__title">Проекты</h3>
+                </div>
+                <div class="work">
+                    <div class="work__items">
+                        <div class="work__item">
+                            <a class="work__link" href="#">
+                                <img class="work__img" src="img/work/sos.jpg" alt="project: sos">
+                            </a>
+                            <div class="work__info">
+                                <div class="work__hover">
+                                    <span class="work__text">Сайт для игры "SoS"</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work__item">
+                            <a class="work__link" href="#">
+                                <img class="work__img" src="img/work/mk.jpg" alt="project: mortal-kombat">
+                            </a>
+                            <div class="work__info">
+                                <div class="work__hover">
+                                    <span class="work__text">Промо-страница "Mortal Kombat"</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work__item">
+                            <a class="work__link" href="#">
+                                <img class="work__img" src="img/work/wb.jpg" alt="project: web__design">
+                            </a>
+                            <div class="work__info">
+                                <div class="work__hover">
+                                    <span class="work__text">Лэндинг для веб-дизайнера</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work__item">
+                            <a class="work__link" href="#">
+                                <img class="work__img" src="img/work/willberries.jpg" alt="project: willberries">
+                            </a>
+                            <div class="work__info">
+                                <div class="work__hover">
+                                    <span class="work__text">Страница интернет-магазина "Willberries"</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work__item">
+                            <a class="work__link" href="#">
+                                <img class="work__img" src="img/work/it.jpg" alt="project: it-studio">
+                            </a>
+                            <div class="work__info">
+                                <div class="work__hover">
+                                    <span class="work__text">Сайт для IT студии</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--/. work-->
+            </div>
+        </div>
+    </section> <!--/.section work -->
+
+    <section class="section contacts" id="contact">
+        <div class="container">
+            <div class="section__inner">
+                <div class="section__content">
+                    <h3 class="section__title">Контакты</h3>
+                </div>
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <h5 class="contact__item-title">Адрес</h5>
+                            <a class="contact__link" href="https://goo.gl/maps/Dg2pv8a61HAg8Kxm7" target="_blank">Россия, Ижевск</a>
+                        </li>
+                        <li class="contact__item">
+                            <h5 class="contact__item-title">Телефон</h5>
+                            <a class="contact__link" href="tel:+79828158429">+7(982)-815-84-29</a>
+                        </li>
+                        <li class="contact__item">
+                            <h5 class="contact__item-title">Почта</h5>
+                            <a class="contact__link" href="mailto:ef.ks.al@mail.ru">ef.ks.al@mail.ru</a>
+                        </li>
+                        <li class="contact__item">
+                            <h5 class="contact__item-title">Сайт</h5>
+                            <a class="contact__link" href="https://github.com/Reniary" target="_blank">https://github.com/Reniary</a>
+                        </li>
+                    </ul>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <ul class="footer-social__list">
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="#">
+                            <i class="social__icons social__icons--footer fab fa-vk"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="#">
+                            <i class="social__icons social__icons--footer fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="#">
+                            <i class="social__icons social__icons--footer fab fa-telegram-plane"></i>
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </footer>
+    <a class="arrow__up  scroll-link" href="#body">top</a>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
