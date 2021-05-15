@@ -287,7 +287,7 @@ a {
 .work__items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
 }
 
@@ -302,6 +302,7 @@ a {
 }
 
 .work__info {
+    padding: 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -315,7 +316,7 @@ a {
 
     transform: translate(-50%, -50%);
 
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, .9);
     border-radius: 5px;
     opacity: 0;
 
@@ -469,7 +470,7 @@ a {
     /* work */
     .work__items {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
     }
 
 }
