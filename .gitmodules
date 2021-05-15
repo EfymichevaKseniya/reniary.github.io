@@ -13,3 +13,6 @@
 [submodule "it-studio"]
 	path = it-studio
 	url = https://github.com/Reniary/it-studio.git
+[submodule "intensiv_wb-js"]
+	path = intensiv_wb-js
+	url = https://github.com/Reniary/intensiv_wb-js.git
