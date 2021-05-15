@@ -13,3 +13,5 @@ https://reniary.github.io/sos
 https://reniary.github.io/willberries
 5. mortal kombat- Учебный проект в Glo Academy
 https://reniary.github.io/mortal-kombat
+6. willberries - Учебный проект по javascript в Glo Academy
+https://reniary.github.io/willberries-js/
