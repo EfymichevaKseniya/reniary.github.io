@@ -607,7 +607,7 @@ a {
 }
 
 .fixed {
-    margin-bottom: 100px;
+    margin-top: 0;
     padding: 0 40px;
     position: fixed;
     top: 0;
