@@ -6,7 +6,7 @@ https://reniary.github.io
 1. сайт IT - компании
 https://reniary.github.io/it-studio
 2. портфолио веб-дизайнера
-https://reniary.github.io/web_design
+https://reniary.github.io/web-design
 3. для игры "SOS"
 https://reniary.github.io/sos
 4. willberries - Учебный проект в Glo Academy
