@@ -3,15 +3,15 @@ https://reniary.github.io
 
 ### Проекты:
 
-1. сайт IT - компании
-https://reniary.github.io/it-studio
-2. портфолио веб-дизайнера
-https://reniary.github.io/web-design
-3. для игры "SOS"
-https://reniary.github.io/sos
+1. Лэндинг IT - компании
+https://github.com/Reniary/it-studio
+2. Дэндинг портфолио веб-дизайнера
+https://github.com/Reniary/web-design
+3. Лэндинг для игры "SOS"
+https://github.com/Reniary/sos
 4. willberries - Учебный проект в Glo Academy
-https://reniary.github.io/willberries
+https://github.com/Reniary/willberries
 5. mortal kombat- Учебный проект в Glo Academy
-https://reniary.github.io/mortal-kombat
+https://github.com/Reniary/mortal-kombat
 6. willberries - Учебный проект по javascript в Glo Academy
-https://reniary.github.io/willberries-js/
+https://github.com/Reniary/willberries-js
