@@ -16,3 +16,5 @@ https://github.com/Reniary/mortal-kombat
 6. willberries - Учебный проект по javascript в Glo Academy
 https://github.com/Reniary/willberries-js
 7. тестовое задание - https://github.com/Reniary/test-scss
+8. тестовое задание ЦВТ - https://reniary.github.io/cvt-test/dist/
+https://github.com/Reniary/cvt-test
