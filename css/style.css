@@ -297,10 +297,6 @@ a {
     cursor: pointer;
 }
 
-.work__item:first-child {
-    grid-column: span 2;
-}
-
 .work__info {
     padding: 0 10px;
     display: flex;
